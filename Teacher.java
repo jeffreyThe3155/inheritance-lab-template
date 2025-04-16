@@ -17,7 +17,7 @@ public class Teacher extends Person{
         return mySubject;
     }
 
-    public String getSalary() {
+    public int getSalary() {
         return mySalary;
     }
 
@@ -31,6 +31,6 @@ public class Teacher extends Person{
 
     public String toString(){
         // TODO: improve this.
-        return super.toString() + ", is a teacher!";
+        return super.toString() + ", is a teacher teaching " + mySubject + " and paid: " + mySalary;
     }
 }

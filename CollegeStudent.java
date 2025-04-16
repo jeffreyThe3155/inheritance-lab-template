@@ -22,7 +22,11 @@ public class CollegeStudent extends Student {
         myYear = year;
     }
 
-    public void setMajor() {
+    public void setMajor(String major) {
         myMajor = major;
+    }
+
+    public String toString(){
+        return super.toString() + " is class of " + myYear + " student studying " + myMajor;
     }
 }
