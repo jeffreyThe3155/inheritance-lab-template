@@ -36,7 +36,6 @@ public class Person{
   }
 
   public String toString(){
-    return myName + ", age: " + myAge + ", gender: " +
-                                myGender;
+    return myName + ", age: " + myAge + ", gender: " + myGender;
   }
 }

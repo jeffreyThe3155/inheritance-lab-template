@@ -1,9 +1,9 @@
 public class Teacher extends Person{
     private String mySubject;
-    private int mySalary;
+    private double mySalary;
     // TODO: Add fields.
 
-    public Teacher(String name, int age, String gender, String subject, int salary)
+    public Teacher(String name, int age, String gender, String subject, double salary)
     {
         super(name, age, gender);
 
@@ -17,7 +17,7 @@ public class Teacher extends Person{
         return mySubject;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return mySalary;
     }
 
@@ -25,12 +25,12 @@ public class Teacher extends Person{
         mySubject = subject;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         mySalary = salary;
     }
 
     public String toString(){
         // TODO: improve this.
-        return super.toString() + ", teaching " + mySubject + " , paid: " + mySalary;
+        return super.toString() + ", teaching: " + mySubject + ", paid: " + mySalary;
     }
 }
