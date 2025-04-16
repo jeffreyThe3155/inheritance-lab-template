@@ -27,6 +27,6 @@ public class CollegeStudent extends Student {
     }
 
     public String toString(){
-        return super.toString() + " is class of " + myYear + " student studying " + myMajor;
+        return super.toString() + ", class of " + myYear + " , studying: " + myMajor;
     }
 }
