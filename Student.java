@@ -31,6 +31,6 @@ public class Student extends Person{
 
   // overrides the toString method in the parent class
   public String toString(){
-    return super.toString() + ", student id: " + myIdNum + ", gpa: " + myGPA;
+    return super.toString() + " is a student with an id: " + myIdNum + " gpa: " + myGPA;
   }
 }
